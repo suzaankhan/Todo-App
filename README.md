@@ -59,12 +59,16 @@ configure your mongodb setup in /db/connect.js
 cd backend
 ```
 
-2. Start the server
+2.Install node modules
+```bash
+npm install
+```
+
+3. Start the server
 ```bash
 npm run dev
 ```
-
-3. Ensure MongoDB is running on your system or connect to a MongoDB Atlas cluster.
+4. Ensure MongoDB is running on your system or connect to a MongoDB Atlas cluster.
 
 ## To run frontend
 
@@ -73,7 +77,12 @@ npm run dev
 cd to-do-app
 ```
 
-2. Run react server
+2.Install node modules
+```bash
+npm install
+```
+
+3. Run react server
 ```bash
 npm start
 ```
