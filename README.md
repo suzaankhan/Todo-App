@@ -5,9 +5,9 @@ This is a responsive Todo application built using React and bootstrap css for th
 - User authentication with login and signup functionality.
 - Creating tasks even without logging in (tasks are saved only when logged in).
 - CRUD operations: Users can add, update, and delete todos.
-- A responsive design for seamless usage across devices.
-- State management using useContext to track user login status.
-- Backend powered by RESTful API/users.
+- A **responsive** design for seamless usage across devices.
+- State management using **useContext** to track user login status.
+- Backend powered by **RESTful** API/users.
 
 ## Tod App
 
@@ -41,13 +41,6 @@ This is a responsive Todo application built using React and bootstrap css for th
 - CSS/Bootstrap
 - Express.js
 - MongoDB (NoSQL database)
-
-## Additional Libraries/Tools
-
-- React Context API/user (state management)
-- Axios (HTTP requests)
-- React Toastify (for notifications)
-- React Icons
 
 ## API/user Endpoints
 
