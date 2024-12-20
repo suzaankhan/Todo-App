@@ -1,0 +1,86 @@
+
+.top-todo{
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+}
+
+.todo-inputs{
+    border: none;
+    outline: none;
+
+}
+
+.todo-inputs-div{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+
+#textarea{
+    display: none;
+}
+
+.todo-card{
+    /* border: 1px solid rgba(0, 0, 0, 0.274); */
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), 
+    0 9px 10px rgba(0, 0, 0, 0.103);
+
+    button{
+        color : white;
+    }
+
+    button:hover{
+        color: white;
+        background-color: rgb(219, 84, 84) !important;
+    }
+}
+
+.card-icons{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.del{
+    color: rgb(219, 84, 84);
+}
+
+.upd{
+    color: rgb(76, 206, 76);
+}
+
+.icon{
+    /* border: 1px solid rgba(0, 0, 0, 0.521); */
+    padding: 2px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: rgb(220, 53, 69);
+        color: white;
+        .del, .upd{
+            color: white;
+        }
+    }
+}
+
+
+@media (max-width : 768px) {
+    .todo-inputs-div{
+        width: 90%;
+    }
+    .row{
+        width: 100vw;
+    }
+    .todo-card-container{
+        margin: 0;
+        padding: 0;
+    }
+    .todo-inputs-div{
+        width: 90vw !important;
+    }
+    .add-btn-div{
+        justify-content: center !important;
+    }
+}
