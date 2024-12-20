@@ -17,10 +17,10 @@ This is a responsive Todo application built using React and bootstrap css for th
 ![Image](./assets/todo1.png)
 ![Image](./assets/todo2.png)
 ![Image](./assets/demo.png)
-![Image](./assets/mob1.jpg)
-![Image](./assets/mob2.jpg)
-![Image](./assets/mob3.jpg)
-![Image](./assets/mob4.jpg)
+<img src="./assets/mob1.jpg" alt="Alt Text" width="200"/>
+<img src="./assets/mob2.jpg" alt="Alt Text" width="200"/>
+<img src="./assets/mob3.jpg" alt="Alt Text" width="200"/>
+<img src="./assets/mob4.jpg" alt="Alt Text" width="200"/>
 
 ## Features
 
