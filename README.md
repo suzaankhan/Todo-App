@@ -11,7 +11,8 @@ This is a responsive Todo application built using **React** and **bootstrap css*
 
 ## Project Video
 https://github.com/user-attachments/assets/db87acea-34dd-4004-bd0e-a37ebb8c0b44
-## Tod App
+
+## Todo App
 
 ![Image](./assets/home.png)
 ![Image](./assets/about.png)
