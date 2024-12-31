@@ -1,6 +1,6 @@
 # Responsive Todo App
 
-This is a responsive Todo application built using React and bootstrap css for the frontend, Express.js for the backend, and MongoDB for the database. Global state management is done using Context API and useReducer is also used at some places. It includes features such as:
+This is a responsive Todo application built using **React** and **bootstrap css** for the frontend, **Express.js** for the backend, and **MongoDB** for the database. Global state management is done using **Context API** and **useReducer** is also used at some places. It includes features such as:
 
 - User authentication with login and signup functionality.
 - Creating tasks even without logging in (tasks are saved only when logged in).
